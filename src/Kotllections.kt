@@ -6,7 +6,7 @@ fun main(args: Array<String>) {
 }
 
 fun createCollections() {
-    val numbers = listOf(1, 2, 3).withIndex()
+    val numbers = listOf(1, 2, 3)
     val strings = setOf("Richie", "Lemmy", "Billy")
     val grades = mapOf("A" to 90..100, "B" to 80..89, "C" to 70..79)
 
