@@ -1,3 +1,5 @@
+package chapter2
+
 import java.lang.IllegalArgumentException
 
 interface Expr
