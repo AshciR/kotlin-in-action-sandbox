@@ -23,8 +23,8 @@ fun main(args: Array<String>) {
             SiteVisit("/contact", 50.0, OS.ANDROID)
     )
 
-    println(sitesVisits.averageDurationFor { site -> site.os == OS.WINDOWS })
-    println(sitesVisits.averageDurationFor { site -> site.os == OS.MAC })
-    println(sitesVisits.averageDurationFor { site -> site.path == "/"})
+    println(sitesVisits.averageDurationFor { it.os == OS.WINDOWS })
+    println(sitesVisits.averageDurationFor { it.os == OS.MAC })
+    println(sitesVisits.averageDurationFor { it.path == "/"})
 
 }
